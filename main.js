@@ -41,5 +41,8 @@ let line2 = document.getElementById("line2");
 hamburger.addEventListener("click", () => {
   menu.classList.toggle("h-fit");
   menu.classList.toggle("h-0");
-  hamburger.classList.toggle("rotate-90");
+  line1.classList.toggle("rotate-45");
+  line1.classList.toggle("translate-y-[0.21rem]");
+  line2.classList.toggle("-rotate-45");
+  line2.classList.toggle("-translate-y-[0.2rem]");
 })
