@@ -42,7 +42,7 @@ hamburger.addEventListener("click", () => {
   menu.classList.toggle("h-fit");
   menu.classList.toggle("h-0");
   line1.classList.toggle("rotate-45");
-  line1.classList.toggle("translate-y-[0.205rem]");
+  line1.classList.toggle("translate-y-[0.206rem]");
   line2.classList.toggle("-rotate-45");
-  line2.classList.toggle("-translate-y-[0.205rem]");
+  line2.classList.toggle("-translate-y-[0.206rem]");
 })
